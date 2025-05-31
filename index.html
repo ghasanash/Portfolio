@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghasan Ashkar Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="home">
+  <header>
+    <div>
+      <div class="profile_name">Ghasan Ashkar</div>
+      <div class="contact_info">
+        <div >📧 <a href="mailto:ghasan.ashkar20@gmail.com" style="color: white; text-decoration: none;">ghasan.ashkar20@gmail.com</a></div>
+        <div>📞 +972-50-390-1461</div>
+      </div>
+    </div>
+    <nav>
+      <ul class="topmenu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <section id="about">
+  <div class="about-left">
+    <img src="image/codingBoy.png" alt="Profile Picture" class="profile_img" />
+  </div>
+  <div class="about-right">
+    <h1>Hi, I'm ghasan ashkar 👋</h1>
+    <p>
+    Computer Science graduate with a strong foundation in C, Python, and C++, specializing in real-time 
+    embedded systems and fast networks. Experienced in Linux OS, object-oriented programming, and 
+    data structures.
+    </p>
+  </div>
+</section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card"><img src="image/html-logo.png" alt="HTML"><p>HTML</p></div>
+      <div class="skill-card"><img src="image/css-logo.png" alt="CSS"><p>CSS</p></div>
+      <div class="skill-card"><img src="image/js-logo.png" alt="JavaScript"><p>JavaScript</p></div>
+      <div class="skill-card"><img src="image/csharp-logo.png" alt="C#"><p>C#</p></div>
+      <div class="skill-card"><img src="image/python-logo.png" alt="Python"><p>Python</p></div>
+      <div class="skill-card"><img src="image/C-logo.png" alt="C"><p>C</p></div>
+       <div class="skill-card"><img src="image/C++-logo.png" alt="C++"><p>C++</p></div>
+        <div class="skill-card"><img src="image/Java-logo.png" alt="Java"><p>Java</p></div>
+         <div class="skill-card"><img src="image/SQL-logo.png" alt="SQL"><p>SQL</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3> Auto Parts Management System</h3>
+      <p> Developed using C# and MySQL, enabling customers to browse inventory and 
+          place orders, with administrative reporting tools. 
+          Administrators can generate reports, manage users, and review or delete 
+          orders, enhancing operational control.</p>
+    </div>
+    <div class="project-card">
+      <h3>Emotion Recognition System</h3>
+      <p>Used Python and OpenCV to build a face and emotion recognition system. Capable of detecting emotional states in real-time.</p>
+    </div>
+    <div class="project-card">
+      <h3>Matrix Calculator</h3>
+      <p> Developed a calculator in C for matrix operations, ensuring efficient handling of 
+          matrix sizes and optimized performance.</p>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    
+    <textarea id="new_recommendation" placeholder="Write a recommendation..."></textarea><br/>
+    <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+  </section>
+
+  <footer style="background-color: #34495e; padding: 20px 0; text-align: center;">
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </footer>
+
+  <div id="popup" class="popup">Thank you for your recommendation!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
