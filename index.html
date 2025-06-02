@@ -1,96 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ghasan Ashkar Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Fadi Srouji - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
 </head>
+
 <body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div id="home">
+      <div class="profile_name">
+        Fadi Srouji
+        <div class="contact_info">
+          <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          +13456764598
 
-  <header>
-    <div class="header-container">
-      <div class="profile_name">Ghasan Ashkar</div>
-      <div class="contact_info">
-        <a href="mailto:ghasan.ashkar20@gmail.com">📧 ghasan.ashkar20@gmail.com</a> |
-        📞 +972-50-390-1461
+        </div>
       </div>
-      <nav>
-        <ul class="topmenu">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#recommendations">Recommendations</a></li>
-        </ul>
-      </nav>
+      <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <!-- Add the links for Skills, Projects and Recommendation here -->
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <section id="about">
-    <div class="about-left" data-aos="fade-right">
-      <img src="image/codingBoy.png" alt="Profile Picture" class="profile_img" />
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="html_finalprojimages/hello.gif" class="profile_image" />
     </div>
-    <div class="about-right" data-aos="fade-left">
-      <h1 id="typewriter"></h1>
+
+    <div>
+      <h1>
+        Hi, I'm Fadi Srouji! <img src="html_finalprojimages/waving-hand.png" width="60px" />
+      </h1>
       <p>
-        Computer Science graduate with a strong foundation in C, Python, and C++,
-        specializing in real-time embedded systems and fast networks.
-        Experienced in Linux OS, object-oriented programming, and data structures.
+        I'm a Computer Science graduate from Tel-Hai College with a specialization in Real-Time Systems and Fast
+        Networks.
+        I have hands-on experience in software and game development, including building a multiplayer Battleship game
+        using Unity and Photon PUN.
+        Proficient in C, C#, and Python, I enjoy tackling complex problems and building innovative, effective solutions.
       </p>
     </div>
   </section>
 
+  <!-- Skills -->
   <section id="skills">
-    <h2 data-aos="fade-up">Skills</h2>
-    <div class="skills-container">
-      <div class="skill-card" data-aos="zoom-in"><img src="image/html-logo.png" alt="HTML"><p>HTML</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/css-logo.png" alt="CSS"><p>CSS</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/js-logo.png" alt="JavaScript"><p>JavaScript</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/csharp-logo.png" alt="C#"><p>C#</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/python-logo.png" alt="Python"><p>Python</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/C-logo.png" alt="C"><p>C</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/C++-logo.png" alt="C++"><p>C++</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/Java-logo.png" alt="Java"><p>Java</p></div>
-      <div class="skill-card" data-aos="zoom-in"><img src="image/SQL-logo.png" alt="SQL"><p>SQL</p></div>
+    <h2>Skills</h2>
+    <div style="clear:both;"></div>
+
+    <div class="all_skills">
+      <div class="skill">
+        <img src="html_finalprojimages/html5.png" />
+        <h6>HTML</h6>
+        <p>1 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/js.jpeg" />
+        <h6>JavaScript</h6>
+        <p>1 years experience</p>
+      </div>
+
+      <!-- Add more skills here -->
+      <div class="skill">
+        <img src="html_finalprojimages/CSS3.png" />
+        <h6>CSS</h6>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill">
+        <img src="html_finalprojimages/java.png" />
+        <h6>Java</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/CSharp.png" />
+        <h6>C#</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/C.png" />
+        <h6>C</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/Python.png" />
+        <h6>Python</h6>
+        <p>2 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="html_finalprojimages/Unity.png" />
+        <h6>Unity</h6>
+        <p>1 year experience</p>
+      </div>
+
     </div>
   </section>
 
-  <section id="projects">
-    <h2 data-aos="fade-up">Projects</h2>
-    <div class="project-card" data-aos="fade-up">
-      <h3>Auto Parts Management System</h3>
-      <p>Developed using C# and MySQL, enabling customers to browse inventory and place orders with admin reporting tools.</p>
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>
+      Projects
+    </h2>
+    <div style="clear:both;"></div>
+
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Battleship Game Development</h3>
+        <ul>
+          <li>Developed a multiplayer Battleship game using Unity and Photon PUN, supporting both Player vs Player and
+            Player vs Computer modes with intuitive UI.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Facial Recognition & Emotion Detection</h3>
+        <ul>
+          <li>Enhanced facial recognition with emotional state detection using Python and OpenCV, including real-time
+            age, gender, and emotion analysis.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Car Rental System</h3>
+        <ul>
+          <li>Built a C# and MySQL-based system with booking, car browsing, and reservation management through a
+            user-friendly GUI and real-time updates.</li>
+        </ul>
+      </div>
     </div>
-    <div class="project-card" data-aos="fade-up">
-      <h3>Emotion Recognition System</h3>
-      <p>Used Python and OpenCV to detect emotional states in real-time through facial recognition.</p>
-    </div>
-    <div class="project-card" data-aos="fade-up">
-      <h3>Matrix Calculator</h3>
-      <p>Developed in C for efficient matrix operations, handling dynamic matrix sizes.</p>
+
     </div>
   </section>
+  <div style="clear:both;"></div>
 
+  <!-- Recommendations -->
   <section id="recommendations">
-    <h2 data-aos="fade-up">Recommendations</h2>
-    <div id="recommendation-list"></div>
-    <textarea id="new_recommendation" placeholder="Write a recommendation..."></textarea><br/>
-    <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Fadi is an incredibly resourceful developer with strong attention to detail.
+        He quickly adapts to new challenges and consistently delivers efficient solutions that exceed expectations.
+        A great asset to any team!
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Working with Fadi has been a pleasure.
+        His expertise in game development and problem-solving is top-notch.
+        He communicates ideas clearly and always brings energy and innovation to the project.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Fadi’s ability to break down complex issues and provide effective solutions is impressive.
+        He demonstrates great teamwork, leadership potential, and technical skill.
+        I would absolutely work with him again.
+        <span>&#8221;</span>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 Ghasan Ashkar</p>
-    <div class="social-links">
-      <a href="https://github.com/" target="_blank">GitHub</a> |
-      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+  <!-- Recommendation Form -->
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br />
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
     </div>
-  </footer>
+  </section>
 
-  <div id="popup" class="popup">Thank you for your recommendation!</div>
+  <div class="iconbutton">
+    <a href="#home">
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+        width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </div>
 
-  <script src="script.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <div class="popup" id="popup" class="flex_center">
+    <img src="html_finalprojimages/checkmark--outline.svg" />
+    <!-- Add appropriate text here-->
+    <h3>Thanks for leaving a recommendation!</h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
 </body>
+
 </html>
