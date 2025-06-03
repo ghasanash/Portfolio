@@ -175,6 +175,21 @@ footer {
   margin: 0 10px;
   text-decoration: none;
 }
+/* dawonloa cv*/
+.cv-download a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.cv-download a:hover {
+  background-color: #006fd6;
+}
 
 /* Popup */
 .popup {
