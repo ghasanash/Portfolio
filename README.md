@@ -9,7 +9,7 @@ This is my personal portfolio website, built as part of the **IBM iOS and Androi
 - **JavaScript** – Interactivity and typewriter effect
 - **AOS Library** – Animations on scroll
 
-## 💼 Projects Featured
+## 💼 Projects
 
 - **Auto Parts Management System** – Built in C# and MySQL
 - **Emotion Recognition System** – Built using Python and OpenCV
