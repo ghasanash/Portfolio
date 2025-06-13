@@ -8,9 +8,10 @@ body {
   color: #333;
   scroll-padding-top: 100px;
 }
+/* Header  #B7C1B3 */
 
 header {
-  background: linear-gradient(to right, #5f01d1, #8e2de2);
+  background: linear-gradient(to right, grey,gray);
   color: white;
   padding: 20px;
   position: sticky;
